@@ -26,9 +26,6 @@
       myX = 700;
     }
   }
-  void christmas(){
-    myColor = color(255, 102, 102);
-  }
 }   
 
 Bacteria [] biology = new Bacteria [10000];
@@ -61,6 +58,5 @@ void setup()
      biology[i].move();
      biology[i].show();
      biology[i].pop();
-     biology[i].christmas();
      }
  } 
